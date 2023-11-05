@@ -1,0 +1,8 @@
+For the website layout, I want to make it CS stylized:
+
+Needs to contain resume!
+Contain images of FURY project + link!
+
+Overall format:
+Header w/ name
+Side bar for navigation
