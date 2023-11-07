@@ -1,37 +1,17 @@
 body {
     background-color: white;
-    margin: 0;
 }
 
-.wrapper {
-    /*set based on status*/
-    display: initial;
+.sidebar {
+    width: 20%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: lightgray;
 }
-.default {
-    /*set to none once set is online*/
-    display: none;
-}
-
-.top-header {
-    overflow: hidden;
-    background-color: lightgrey;
-}
-
-.top-header a {
-    float: left;
-    text-align: center;
-    padding: 14px 16px;
+.sidebar a {
+    color: gray;
+    padding: 16px;
     text-decoration: none;
-    background-color: lightgrey;
-    border-width: 2px;
-    border-color: red;
-}
-
-.top-header a:hover {
-    background-color: grey;
-    color: white;
-}
-
-.main {
-    padding-left: 16px;
+    display: block;
 }
